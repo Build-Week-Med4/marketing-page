@@ -1,2 +1,1 @@
-# marketing-page
-landing/marketing &amp; about page for site
+hosted on https://medcabinet4.netlify.app/
