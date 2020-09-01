@@ -2643,3 +2643,26 @@ input, select, textarea {
 			}
 
 	}
+
+	/* img {
+		color: #900;
+		text-decoration: none;
+	  } */
+	  
+img:hover {
+		color: red;
+		position: inherit;
+}
+	  
+img[title]:hover:after {
+	content: attr(title);
+	padding: 4px 8px;
+	color: rgba(0,0,0,0.5);
+	position: inherit;
+	left: 0;
+	top: 100%;
+	white-space: nowrap;
+	z-index: 2;
+	border-radius: 5px ;
+	background:white;
+}
